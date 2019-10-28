@@ -16,4 +16,3 @@ Now you can see that the list is not appearing and ReposStore object is empty.
 
 #### NOTE: This problem appear in case when parent view updated with same Identifiable data. The bug is not appearing when parents view updated with different data.
 
-#### WORKAROUND: Use Hashable instead of Identifiable.
