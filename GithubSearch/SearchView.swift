@@ -13,9 +13,6 @@ struct RepoRow: View {
 
     var body: some View {
         HStack(alignment: .top) {
-            Image(systemName: "photo") // placeholder
-                .fetchingRemoteImage(from: repo.owner.avatar)
-                .frame(width: 44, height: 44)
             VStack(alignment: .leading) {
                 Text(repo.name)
                     .font(.headline)
