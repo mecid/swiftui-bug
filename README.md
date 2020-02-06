@@ -1,4 +1,4 @@
-# swiftui-bug
+# swiftui-bug FB7133446
 ## Sample project for reproducing SwiftUI bug when child view's ObservableObject lose the data
 
 ### The problem:
